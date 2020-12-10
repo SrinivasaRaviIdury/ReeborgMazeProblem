@@ -1,4 +1,4 @@
-Solution
+#Solution
 #Edge case Get out of infinite loop
 while front_is_clear():
     move()
