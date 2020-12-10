@@ -1,0 +1,14 @@
+Solution
+#Edge case Get out of infinite loop
+while front_is_clear():
+    move()
+turn_left()
+# Actual Code To Maze
+while not at_goal():
+    if right_is_clear():
+        turn_right()
+        move()
+    elif front_is_clear():
+        move()
+    else:
+        turn_left()
